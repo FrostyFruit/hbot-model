@@ -37,10 +37,10 @@ const HBOTCalculator = () => {
     electricityCost: 0,
     oxygenCost: 0,
     maintenanceCost: 0,
-    insuranceCost: 500,
-    facilityCost: -,
-    marketingCost: 1000,
-    otherCosts: 500,
+    insuranceCost: 0,
+    facilityCost: 0,
+    marketingCost: 0,
+    otherCosts: 0,
     
     // Financing
     downPayment: 45000,
