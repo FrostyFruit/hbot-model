@@ -7,6 +7,9 @@ const Hero = () => {
   const [businessName, setBusinessName] = useState("");
   const { data: prospect, isLoading, error } = useProspect();
   
+  // Define the introText variable that was missing
+  const introText = "A personalised message from Peter";
+  
   useEffect(() => {
     console.log("Hero component - Prospect data:", prospect);
     
