@@ -163,7 +163,7 @@ const HBOTCalculator = () => {
           HBOT Business Financial Calculator
         </h1>
         <p className="text-gray-600">
-          OneBase Laydown 2.0 ATA Chamber - Interactive Financial Projections
+          Laydown 2.0 ATA Chamber - Interactive Financial Projections
         </p>
         <div className="mt-4 p-3 bg-yellow-50 border border-yellow-200 rounded-lg">
           <p className="text-sm text-yellow-800">
