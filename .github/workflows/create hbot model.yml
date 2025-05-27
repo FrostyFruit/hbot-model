@@ -6,6 +6,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v3
 
@@ -22,9 +23,9 @@ jobs:
 
       - name: Debug build output
         run: |
-          echo "Listing contents of the root directory..."
+          echo "Root:"
           ls -la
-          echo "Listing contents of the dist directory..."
+          echo "Dist:"
           ls -R dist
 
       - name: Deploy to GitHub Pages
@@ -33,4 +34,5 @@ jobs:
           github_token: ${{ secrets.GH_PAT }}
           publish_dir: ./dist
           cname: model.hyperbarichq.com
+          publish_branch: gh-pages
           force_orphan: true
