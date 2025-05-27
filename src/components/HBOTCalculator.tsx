@@ -16,7 +16,7 @@ const HBOTCalculator = () => {
     
     // Package Pricing
     singleSessionPrice: 180,
-    threeSessionPackageTotal: 450,
+    threeSessionPackageTotal: 500,
     twentySessionPackageTotal: 3000,
     fortySessionPackageTotal: 5500,
     
