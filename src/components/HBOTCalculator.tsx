@@ -167,7 +167,7 @@ const HBOTCalculator = () => {
         </p>
         <div className="mt-4 p-3 bg-yellow-50 border border-yellow-200 rounded-lg">
           <p className="text-sm text-yellow-800">
-            <strong>Note:</strong> Pricing excludes bespoke training and development (additional $3,500 cost included in setup)
+            <strong>Note:</strong> Pricing excludes bespoke training and development (additional $3,764 cost included in setup)
           </p>
         </div>
       </div>
