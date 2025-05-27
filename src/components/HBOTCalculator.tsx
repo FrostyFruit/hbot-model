@@ -7,18 +7,18 @@ const HBOTCalculator = () => {
   const [variables, setVariables] = useState({
     // Equipment & Setup
     chamberCost: 78846.45,
-    installationCost: 10000,
-    facilitySetupCost: 15000,
-    trainingCost: 3500,
+    installationCost: 0,
+    facilitySetupCost: 0,
+    trainingCost: 3804,
     
     // Session Pricing
     averageSessionPrice: 150,
     
     // Package Pricing
-    singleSessionPrice: 90,
-    threeSessionPackageTotal: 250,
-    twentySessionPackageTotal: 1500,
-    fortySessionPackageTotal: 2800,
+    singleSessionPrice: 180,
+    threeSessionPackageTotal: 450,
+    twentySessionPackageTotal: 3000,
+    fortySessionPackageTotal: 5500,
     
     // Utilization
     sessionsPerDay: 6,
@@ -33,18 +33,18 @@ const HBOTCalculator = () => {
     fortySessionMix: 15,
     
     // Operating Costs (monthly)
-    staffCosts: 4000,
-    electricityCost: 800,
-    oxygenCost: 400,
-    maintenanceCost: 350,
+    staffCosts: 0,
+    electricityCost: 0,
+    oxygenCost: 0,
+    maintenanceCost: 0,
     insuranceCost: 500,
-    facilityCost: 2000,
+    facilityCost: -,
     marketingCost: 1000,
     otherCosts: 500,
     
     // Financing
-    downPayment: 20000,
-    interestRate: 6.5,
+    downPayment: 45000,
+    interestRate: 5,
     loanTermYears: 5
   });
 
@@ -167,7 +167,7 @@ const HBOTCalculator = () => {
         </p>
         <div className="mt-4 p-3 bg-yellow-50 border border-yellow-200 rounded-lg">
           <p className="text-sm text-yellow-800">
-            <strong>Note:</strong> Pricing excludes bespoke training and development (additional $3,804 cost included in setup)
+            <strong>Note:</strong> Pricing excludes bespoke training and development (additional $3,500 cost included in setup)
           </p>
         </div>
       </div>
