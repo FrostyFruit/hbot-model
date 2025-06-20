@@ -8,7 +8,7 @@ const HBOTCalculator = () => {
     chamberCost: 78846.45,
     installationCost: 0,
     facilitySetupCost: 0,
-    trainingCost: 3804,
+    trainingCost: 0,
     
     // Session Pricing
     averageSessionPrice: 150,
