@@ -1,4 +1,3 @@
-
 import React, { useState, useMemo } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Calculator, DollarSign, TrendingUp, Clock } from 'lucide-react';
@@ -165,11 +164,6 @@ const HBOTCalculator = () => {
         <p className="text-gray-600">
           Laydown 2.0 ATA Chamber - Interactive Financial Projections
         </p>
-        <div className="mt-4 p-3 bg-yellow-50 border border-yellow-200 rounded-lg">
-          <p className="text-sm text-yellow-800">
-            <strong>Note:</strong> Pricing excludes bespoke training and development (additional $3,764 cost included in setup)
-          </p>
-        </div>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
