@@ -5,17 +5,17 @@ import { Calculator, DollarSign, TrendingUp, Clock } from 'lucide-react';
 const HBOTCalculator = () => {
   const [variables, setVariables] = useState({
     // Equipment & Setup
-    chamberCost: 78846.45,
+    chamberCost: ,
     installationCost: 0,
     facilitySetupCost: 0,
     trainingCost: 0,
     
     // Session Pricing
-    averageSessionPrice: 150,
+    averageSessionPrice: ,
     
     // Package Pricing
-    singleSessionPrice: 180,
-    threeSessionPackageTotal: 500,
+    singleSessionPrice: 300,
+    threeSessionPackageTotal: 800,
     twentySessionPackageTotal: 3000,
     fortySessionPackageTotal: 5500,
     
@@ -42,9 +42,9 @@ const HBOTCalculator = () => {
     otherCosts: 0,
     
     // Financing
-    downPayment: 45000,
-    interestRate: 5,
-    loanTermYears: 5
+    downPayment: ,
+    interestRate: ,
+    loanTermYears: 
   });
 
   const [projectionPeriod, setProjectionPeriod] = useState(24); // months
