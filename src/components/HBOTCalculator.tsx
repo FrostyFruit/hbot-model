@@ -161,9 +161,6 @@ const HBOTCalculator = () => {
         <h1 className="text-3xl font-bold text-gray-900 mb-2">
           HBOT Business Financial Calculator
         </h1>
-        <p className="text-gray-600">
-          Laydown 2.0 ATA Chamber - Interactive Financial Projections
-        </p>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
