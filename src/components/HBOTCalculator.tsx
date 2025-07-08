@@ -5,13 +5,13 @@ import { Calculator, DollarSign, TrendingUp, Clock } from 'lucide-react';
 const HBOTCalculator = () => {
   const [variables, setVariables] = useState({
     // Equipment & Setup
-    chamberCost: ,
+    chamberCost: 0,
     installationCost: 0,
     facilitySetupCost: 0,
     trainingCost: 0,
     
     // Session Pricing
-    averageSessionPrice: ,
+    averageSessionPrice: 0,
     
     // Package Pricing
     singleSessionPrice: 300,
@@ -42,9 +42,9 @@ const HBOTCalculator = () => {
     otherCosts: 0,
     
     // Financing
-    downPayment: ,
-    interestRate: ,
-    loanTermYears: 
+    downPayment: 0,
+    interestRate: 0,
+    loanTermYears: 0
   });
 
   const [projectionPeriod, setProjectionPeriod] = useState(24); // months
